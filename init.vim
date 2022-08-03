@@ -1,4 +1,3 @@
-!
 set number
 set mouse=a
 set numberwidth=1
