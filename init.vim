@@ -1,4 +1,3 @@
-!
 set number
 set mouse=a
 set numberwidth=1
@@ -45,6 +44,6 @@ endif
 runtime ./maps.vim
 "}}}
 
-colorscheme palenight
+colorscheme gruvbox 
 
 let g:dart_format_on_save = 1

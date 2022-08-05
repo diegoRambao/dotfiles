@@ -40,7 +40,11 @@ if has("nvim")
   Plug 'natebosch/vim-lsc'
   Plug 'natebosch/vim-lsc-dart'
 
+  " Commenting text
+  Plug 'tpope/vim-commentary'
+
   Plug 'drewtempelmeyer/palenight.vim'
+  Plug 'morhetz/gruvbox'
   Plug 'kristijanhusak/defx-git'
   Plug 'kristijanhusak/defx-icons'
   Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
