@@ -32,6 +32,10 @@ set wildoptions=pum
 set pumblend=5
 set background=dark
 
+let g:rainbow_active = 1
+let g:yats_host_keyword = 1
+let NERDTreeShowHidden=1
+
 runtime ./plug.vim
 if has("unix")
   let s:uname = system("uname -s")

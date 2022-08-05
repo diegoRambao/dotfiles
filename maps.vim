@@ -10,6 +10,7 @@ nnoremap <right> <nop>source %<CR>
 nnoremap <Leader>e :e $MYVIMRC<CR>
 
 nnoremap <Leader>w :w<CR>
+nnoremap <Leader>wn :noa w<CR>
 nnoremap <Leader>q :q<CR>
 nnoremap <Leader>wv :vsp<CR>
 nnoremap <Leader>wh :sp<CR>
@@ -25,6 +26,10 @@ nnoremap <Leader>j :wincmd j <CR>
 nnoremap <Leader>h :wincmd h <CR>
 nnoremap <Leader>k :wincmd k <CR>
 nnoremap <Leader>l :wincmd l <CR>
+
+
+vmap <leader>fp  <Plug>(coc-format-selected)
+nmap <leader>fp  <Plug>(coc-format-selected)
 
 nnoremap <C-j> 10<C-e>
 nnoremap <C-k> 10<C-y>
