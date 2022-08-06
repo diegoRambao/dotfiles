@@ -7,7 +7,7 @@ call plug#begin()
 
 if has("nvim")
 
-    Plug 'nvim-lualine/lualine.nvim'
+  Plug 'nvim-lualine/lualine.nvim'
   " Tree
   Plug 'scrooloose/nerdtree'
   Plug 'tiagofumo/vim-nerdtree-syntax-highlight'

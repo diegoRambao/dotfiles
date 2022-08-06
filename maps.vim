@@ -18,6 +18,7 @@ nnoremap <Leader>wh :sp<CR>
 map <Leader>nt :NERDTreeFind<CR>
 map <Leader>p :Files<CR>
 map <Leader>ag :Ag<CR>
+map <Leader>b :Buffers<CR>
 
 :imap ii <Esc>
 
