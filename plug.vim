@@ -30,8 +30,6 @@ if has("nvim")
   Plug 'yggdroot/indentline'
   Plug 'scrooloose/nerdcommenter'
 
-  Plug 'luochen1990/rainbow'
-
   " Flutter
   Plug 'dart-lang/dart-vim-plugin'
   Plug 'thosakwe/vim-flutter'
