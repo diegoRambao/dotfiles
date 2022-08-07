@@ -12,6 +12,9 @@ if has("nvim")
   Plug 'scrooloose/nerdtree'
   Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
+  "Coc
+  Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
+
   " Syntax highlight for .tsx
   Plug 'ianks/vim-tsx', { 'for': 'typescript.tsx' }
 
@@ -27,13 +30,14 @@ if has("nvim")
   " Term
   Plug 'voldikss/vim-floaterm'
 
+  "LSP
+  Plug 'neovim/nvim-lspconfig'
+
   "Icons
   Plug 'ryanoasis/vim-devicons'
   
   Plug 'junegunn/fzf'
   Plug 'junegunn/fzf.vim'
-
-  Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
   Plug 'yggdroot/indentline'
   Plug 'scrooloose/nerdcommenter'
@@ -59,6 +63,11 @@ if has("nvim")
   Plug 'tpope/vim-repeat'
   Plug 'nvim-lua/plenary.nvim'
   Plug 'windwp/nvim-autopairs'
+
+  " Smart replace, abbreviations, convert case
+  Plug 'tpope/vim-abolish'
+
+
 endif
 
 "Git
