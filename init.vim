@@ -22,7 +22,7 @@ set smartcase
 set path+=**
 set wildignore+=*/node_modules/*e
 set tabstop=4
-set shiftwidth=4
+set shiftwidth=2
 set expandtab
 set formatoptions+=r
 syntax enable

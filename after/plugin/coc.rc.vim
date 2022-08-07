@@ -1,6 +1,5 @@
 " Para habilitar prettier debe colocar true la propiedad prettier.enable
 
-
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
@@ -8,6 +7,17 @@ nmap <silent> gr <Plug>(coc-references)
 noremap <Leader>gs :CocSearch
 xmap <Leader>a  <Plug>(coc-codeaction-selected)
 nmap <Leader>a  <Plug>(coc-codeaction-selected)
+
+" Use K to show documentation in preview window.
+nnoremap <silent> K :call ShowDocumentation()<CR>
+
+function! ShowDocumentation()
+  if CocAction('hasProvider', 'hover')
+    call CocActionAsync('doHover')
+  else
+    call feedkeys('K', 'in')
+  endif
+endfunction
 
 let g:coc_user_config = {
         \ "angular.trace.server": v:true,
