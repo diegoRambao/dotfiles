@@ -12,9 +12,17 @@ if has("nvim")
   Plug 'scrooloose/nerdtree'
   Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
+  " Syntax highlight for .tsx
+  Plug 'ianks/vim-tsx', { 'for': 'typescript.tsx' }
 
   " Syntax highlight for .ts
   Plug 'HerringtonDarkholme/yats.vim', { 'for': 'typescript' }
+
+  " Syntax hightlight for .jsx
+  Plug 'mxw/vim-jsx'
+
+  " Syntax hightlight for .js
+  Plug 'pangloss/vim-javascript'
 
   " Term
   Plug 'voldikss/vim-floaterm'

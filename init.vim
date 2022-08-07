@@ -51,3 +51,5 @@ runtime ./maps.vim
 colorscheme gruvbox 
 
 let g:dart_format_on_save = 1
+
+let NERDTreeQuitOnOpen=1
