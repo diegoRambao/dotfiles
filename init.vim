@@ -53,11 +53,3 @@ colorscheme gruvbox
 let g:dart_format_on_save = 1
 
 let NERDTreeQuitOnOpen=1
-
-let g:UtilSnipsExpandTrigger="<tab>"
-
-"lua << EOF
-"require'lspconfig'.tsserver.setup{}
-"EOF
-
-

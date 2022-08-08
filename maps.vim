@@ -19,6 +19,8 @@ map <Leader>nt :NERDTreeFind<CR>
 map <Leader>p :Files<CR>
 map <Leader>ag :Ag<CR>
 map <Leader>b :Buffers<CR>
+noremap <leader>tv :botright vnew <Bar> :terminal<cr>
+noremap <leader>th :botright new <Bar> :terminal<cr>
 
 :imap ii <Esc>
 

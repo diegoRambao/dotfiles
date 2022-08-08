@@ -1,7 +1,7 @@
 require('lualine').setup {
   options = {
     icons_enabled = true,
-    theme = 'solarized_dark',
+    theme = 'auto',
     component_separators = { left = '', right = ''},
     section_separators = { left = '', right = ''},
     disabled_filetypes = {
@@ -33,7 +33,14 @@ require('lualine').setup {
     lualine_y = {},
     lualine_z = {}
   },
-  tabline = {},
+  tabline = {
+    lualine_a = {'filename'},
+    lualine_b = {},
+    lualine_c = {'buffers'},
+    lualine_x = {},
+    lualine_y = {},
+    lualine_z = {}
+  },
   winbar = {},
   inactive_winbar = {},
   extensions = {}
