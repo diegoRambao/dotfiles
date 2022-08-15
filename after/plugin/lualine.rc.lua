@@ -34,9 +34,9 @@ require('lualine').setup {
     lualine_z = {}
   },
   tabline = {
-    lualine_a = {'filename'},
+    lualine_a = {},
     lualine_b = {},
-    lualine_c = {'buffers'},
+    lualine_c = {},
     lualine_x = {},
     lualine_y = {},
     lualine_z = {}

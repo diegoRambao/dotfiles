@@ -1,3 +1,7 @@
 {
-  "suggest.noselect": false
+  "suggest.noselect": false,
+  "prettier.bracketSpacing": true,
+  "prettier.printWidth": 120,
+  "prettier.tabWidth": 4,
+  "prettier.singleQuote": true
 }

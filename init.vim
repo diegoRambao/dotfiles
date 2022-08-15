@@ -1,6 +1,6 @@
 set number
 set mouse=a
-set numberwidth=1
+set numberwidth=1 
 set clipboard=unnamed
 syntax on
 set showcmd
@@ -22,7 +22,7 @@ set smartcase
 set path+=**
 set wildignore+=*/node_modules/*e
 set tabstop=4
-set shiftwidth=2
+set shiftwidth=4
 set expandtab
 set formatoptions+=r
 syntax enable
@@ -30,9 +30,9 @@ set termguicolors
 set winblend=0
 set wildoptions=pum
 set pumblend=5
-set background=dark
+set linespace=5
 
-let g:rainbow_active = 1
+"let g:rainbow_active = 1
 let g:yats_host_keyword = 1
 let NERDTreeShowHidden=1
 
@@ -48,8 +48,26 @@ endif
 runtime ./maps.vim
 "}}}
 
-colorscheme gruvbox 
+colorscheme onedarkpro
 
+let g:gruvbox_contrast_dark='hard'
 let g:dart_format_on_save = 1
 
 let NERDTreeQuitOnOpen=1
+
+let g:rainbow_active = 1
+
+lua require('neoscroll').setup()
+autocmd FileType scss setl iskeyword+=@-@
+
+autocmd User visual_multi_mappings  imap <buffer><expr> <CR> pumvisible() ? "\<C-Y>" : "\<Plug>(VM-I-Return)" 
+
+" Enable Flutter menu
+autocmd FileType dart :call FlutterMenu()
+" Some of these key choices were arbitrary;
+" it's just an example.
+nnoremap <leader>fa :FlutterRun<cr>
+nnoremap <leader>fq :FlutterQuit<cr>
+nnoremap <leader>fr :FlutterHotReload<cr>
+nnoremap <leader>fR :FlutterHotRestart<cr>
+nnoremap <leader>fD :FlutterVisualDebug<cr>

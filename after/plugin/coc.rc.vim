@@ -22,8 +22,6 @@ endfunction
 let g:coc_user_config = {
         \ "angular.trace.server": v:true,
         \ "suggest.enablePreview": v:true,
-        \ "prettier.disableSuccessMessage": v:true,
-        \ "prettier.enable" : v:true,
         \ "suggest.maxPreviewWidth": 100,
         \ "diagnostic.checkCurrentLine": v:true,
         \ "diagnostic.maxWindowHeight": 20,
@@ -31,7 +29,7 @@ let g:coc_user_config = {
         \ "diagnostic.warningSign": "⚠",
         \ "diagnostic.infoSign": "●",
         \ "diagnostic.hintSign": "○",
-        \ "coc.preferences.formatOnSaveFiletypes": ["typescript", "javascript", "javascript.jsx", "typescript.tsx", "typescriptreact", "javascriptreact", "elm", "html", "less"],
+        \ "coc.preferences.formatOnSaveFiletypes": ["typescript", "javascript", "javascript.jsx", "typescript.tsx", "typescriptreact", "javascriptreact", "elm", "html", "less", "css", "scss"],
         \ 'eslint.filetypes': ["javascript", "javascriptreact", "typescript", "typescriptreact"],
         \ 'languageserver': {
         \ "elmLS": {
@@ -91,4 +89,4 @@ endif
 " Highlight symbol under cursor on CursorHold
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
-command! -nargs=0 OR :call CocAction('runCommand', 'editor.action.organizeImport')
+command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')

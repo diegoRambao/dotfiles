@@ -12,26 +12,18 @@ if has("nvim")
   Plug 'scrooloose/nerdtree'
   Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
+  "Temas
+  "Plug 'joshdick/onedark.vim'
+  Plug 'sainnhe/sonokai'
+  Plug 'olimorris/onedarkpro.nvim'
+
   "Coc
   Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 
-  " Syntax highlight for .tsx
-  Plug 'ianks/vim-tsx', { 'for': 'typescript.tsx' }
-
-  " Syntax highlight for .ts
-  Plug 'HerringtonDarkholme/yats.vim', { 'for': 'typescript' }
-
-  " Syntax hightlight for .jsx
-  Plug 'mxw/vim-jsx'
-
-  " Syntax hightlight for .js
-  Plug 'pangloss/vim-javascript'
-
-  " Term
-  Plug 'voldikss/vim-floaterm'
-
+  Plug 'norcalli/nvim-colorizer.lua'
   "LSP
   Plug 'neovim/nvim-lspconfig'
+  Plug 'tpope/vim-surround'
 
   "Icons
   Plug 'ryanoasis/vim-devicons'
@@ -42,11 +34,11 @@ if has("nvim")
   Plug 'yggdroot/indentline'
   Plug 'scrooloose/nerdcommenter'
 
+  Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+
   " Flutter
   Plug 'dart-lang/dart-vim-plugin'
   Plug 'thosakwe/vim-flutter'
-  Plug 'natebosch/vim-lsc'
-  Plug 'natebosch/vim-lsc-dart'
 
   " Commenting text
   Plug 'tpope/vim-commentary'
@@ -67,6 +59,12 @@ if has("nvim")
   " Smart replace, abbreviations, convert case
   Plug 'tpope/vim-abolish'
 
+
+  " Colores en mensajes diagnosticosio
+  Plug 'folke/lsp-colors.nvim'
+
+  "Scrolling smoth
+  Plug 'karb94/neoscroll.nvim'
 
 endif
 

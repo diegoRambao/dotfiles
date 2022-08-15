@@ -39,9 +39,3 @@ nnoremap <C-k> 10<C-y>
 
 vnoremap > >gv
 vnoremap < <gv
-
-let g:floaterm_keymap_new = '<Leader>ft'
-let g:floaterm_keymap_toggle = '<Leader>fo'
-let g:floaterm_keymap_prev = '<Leader>fv'
-let g:floaterm_keymap_next = '<Leader>fn'
-let g:floaterm_keymap_kill = '<Leader>fk'
