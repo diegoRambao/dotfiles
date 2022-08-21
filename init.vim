@@ -54,6 +54,7 @@ let g:gruvbox_contrast_dark='hard'
 let g:dart_format_on_save = 1
 
 let NERDTreeQuitOnOpen=1
+let g:NERDTreeWinSize=60
 
 let g:rainbow_active = 1
 

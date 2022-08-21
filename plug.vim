@@ -70,8 +70,13 @@ endif
 
 "Git
 
+Plug 'tpope/vim-fugitive'
 Plug 'groenewege/vim-less', { 'for': 'less' }
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
+
+" Diff view git
+Plug 'nvim-lua/plenary.nvim'
+Plug 'sindrets/diffview.nvim'
 
 call plug#end()
 
