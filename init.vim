@@ -31,6 +31,7 @@ set winblend=0
 set wildoptions=pum
 set pumblend=5
 set linespace=5
+set relativenumber
 
 "let g:rainbow_active = 1
 let g:yats_host_keyword = 1
@@ -48,7 +49,7 @@ endif
 runtime ./maps.vim
 "}}}
 
-colorscheme onedarkpro
+colorscheme gruvbox
 
 let g:gruvbox_contrast_dark='hard'
 let g:dart_format_on_save = 1
