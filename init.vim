@@ -49,7 +49,7 @@ endif
 runtime ./maps.vim
 "}}}
 
-colorscheme gruvbox
+colorscheme onedarkpro
 
 let g:gruvbox_contrast_dark='hard'
 let g:dart_format_on_save = 1

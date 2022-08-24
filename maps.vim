@@ -15,7 +15,7 @@ nnoremap <Leader>q :q<CR>
 nnoremap <Leader>wv :vsp<CR>
 nnoremap <Leader>wh :sp<CR>
 
-map <Leader>nt :NERDTreeFind<CR>
+map <Leader>nt :NvimTreeFindFile<CR>
 map <Leader>p :Files<CR>
 map <Leader>ag :Ag<CR>
 map <Leader>b :Buffers<CR>
