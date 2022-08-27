@@ -5,30 +5,28 @@ endif
 call plug#begin()
 
 
-if has("nvim")
-
   Plug 'nvim-lualine/lualine.nvim'
-  " Tree
-  "Plug 'scrooloose/nerdtree'
+   "Tree
+  Plug 'scrooloose/nerdtree'
   Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
-  "Temas
-  Plug 'olimorris/onedarkpro.nvim'
+  """Temas
+  "Plug 'olimorris/onedarkpro.nvim'
   Plug 'sainnhe/sonokai'
   Plug 'drewtempelmeyer/palenight.vim'
   Plug 'morhetz/gruvbox'
   Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
   Plug 'sainnhe/gruvbox-material'
 
-  "Coc
+  """Coc
   Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 
   Plug 'norcalli/nvim-colorizer.lua'
-  "LSP
+  """LSP
   Plug 'neovim/nvim-lspconfig'
   Plug 'tpope/vim-surround'
 
-  "Icons
+  """Icons
   Plug 'ryanoasis/vim-devicons'
   
   Plug 'junegunn/fzf'
@@ -39,15 +37,15 @@ if has("nvim")
 
   Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
-  " Flutter
+  """ Flutter
   Plug 'dart-lang/dart-vim-plugin'
-  "Plug 'thosakwe/vim-flutter'
+  """Plug 'thosakwe/vim-flutter'
   Plug 'akinsho/flutter-tools.nvim'
 
-  " Commenting text
+  """ Commenting text
   Plug 'tpope/vim-commentary'
 
-  "Tree
+  """Tree
   Plug 'kyazdani42/nvim-tree.lua'
   
   Plug 'kristijanhusak/defx-git'
@@ -61,16 +59,15 @@ if has("nvim")
   Plug 'nvim-lua/plenary.nvim'
   Plug 'windwp/nvim-autopairs'
 
-  " Smart replace, abbreviations, convert case
+  """ Smart replace, abbreviations, convert case
   Plug 'tpope/vim-abolish'
 
-  " Colores en mensajes diagnosticosio
+  """ Colores en mensajes diagnosticosio
   Plug 'folke/lsp-colors.nvim'
 
-  "Scrolling smoth
+  """Scrolling smoth
   Plug 'karb94/neoscroll.nvim'
 
-endif
 
 Plug 'groenewege/vim-less', { 'for': 'less' }
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
