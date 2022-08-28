@@ -14,8 +14,8 @@ call plug#begin()
   "Plug 'olimorris/onedarkpro.nvim'
   Plug 'sainnhe/sonokai'
   Plug 'drewtempelmeyer/palenight.vim'
-  Plug 'morhetz/gruvbox'
   Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+  Plug 'ellisonleao/gruvbox.nvim'
   Plug 'sainnhe/gruvbox-material'
 
   """Coc

@@ -6,7 +6,6 @@ require'nvim-treesitter.configs'.setup {
   indent = {
     enable = false,
     disable = {},
-
   },
   ensure_installed = {
     "tsx",
@@ -19,6 +18,8 @@ require'nvim-treesitter.configs'.setup {
     "html",
     "scss",
     "css",
+    "javascript",
+    "typescript"
   },
 }
 local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
