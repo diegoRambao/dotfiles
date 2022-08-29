@@ -17,6 +17,7 @@ call plug#begin()
   Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
   Plug 'ellisonleao/gruvbox.nvim'
   Plug 'sainnhe/gruvbox-material'
+  Plug 'EdenEast/nightfox.nvim'
 
   """Coc
   Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}

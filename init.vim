@@ -50,13 +50,12 @@ runtime ./maps.vim
 "}}}
 
 "let g:tokyonight_style = "night"
-let g:gruvbox_material_foreground="original"
-let g:gruvbox_material_background="hard"
+"let g:gruvbox_material_foreground="original"
+"let g:gruvbox_material_background="hard"
+"
 
-colorscheme tokyonight
+colorscheme gruvbox
 
-
-let g:gruvbox_contrast_dark='hard'
 let g:dart_format_on_save = 1
 
 let NERDTreeQuitOnOpen=1
