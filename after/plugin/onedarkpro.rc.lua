@@ -4,13 +4,11 @@ if not status_ok then
 end
 
 onedarkpro.setup({
-  theme = "onedark_dark",
   colors = {
         bg = "#24272E"
     },
   options = {
       cursorline = true
-  }
+  },
 })
-
-onedarkpro.load()
+vim.cmd("colorscheme onedarkpro")  -- Lua

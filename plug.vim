@@ -7,17 +7,16 @@ call plug#begin()
 
   Plug 'nvim-lualine/lualine.nvim'
    "Tree
-  Plug 'scrooloose/nerdtree'
   Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
   """Temas
-  "Plug 'olimorris/onedarkpro.nvim'
   Plug 'sainnhe/sonokai'
   Plug 'drewtempelmeyer/palenight.vim'
   Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
   Plug 'ellisonleao/gruvbox.nvim'
   Plug 'sainnhe/gruvbox-material'
-  Plug 'EdenEast/nightfox.nvim'
+  Plug 'olimorris/onedarkpro.nvim'
+
 
   """Coc
   Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}

@@ -25,19 +25,11 @@ local nvimtree_config = {
   },
   git = {
     enable = false,
-    ignore = false,
+    ignore = true,
     timeout = 500,
   },
-  filters = {
-    custom = {
-      ".git",
-      "node_modules",
-      ".cache",
-      "__pycache__",
-    },
-  },
   renderer = {
-    highlight_git = false,
+    highlight_git = true,
     add_trailing = false,
     highlight_opened_files = "none",
     indent_markers = {
